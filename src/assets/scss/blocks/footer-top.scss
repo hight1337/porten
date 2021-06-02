@@ -1,0 +1,95 @@
+.footer-top{
+
+    width: 100%;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85)), url(../images/footer-bgImg.jpg), #C4C4C4;
+    min-height: 400px;
+}
+
+.footer-top__inner{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+
+}
+
+.about-magazine{
+    width: 33%;
+    margin-right: 31px;
+}
+
+.footer-title{
+    margin: 80px 0 40px;
+    font-size: 24px;
+    font-family: Playfair Display, sans-serif;
+    text-transform: uppercase;
+    color: $primaryTextColor;
+}
+.footer__paragraph{
+    font-size: 14px;
+    font-family: PT Sans, sans-serif;
+    line-height: 21px;
+}
+
+
+.categories{
+    width: 33%;
+
+}
+
+.categories__items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.category-item{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #0F0F0F;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: $primaryTextColor;
+    font-size: 14px;
+    font-family: $primaryFont, sans-serif;
+    line-height: 21px;
+    text-transform: lowercase;
+    transition: color .2s linear, background-color .2s linear;
+    &:hover{
+        color: #0F0F0F;
+        background-color: $primaryTextColor;
+    }
+}
+
+.mailing-list{
+    width: 33%;
+}
+
+.follow-section{
+    margin-top: 37px;
+}
+
+
+.email-input{
+    border: none;
+    background: rgba(#FFFF, 0.3);
+    width: 60%;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px 10px;
+    outline: none;
+
+}
+
+.follow--btn{
+    border: none;
+    background: #0F0F0F;
+    padding: 12px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color .2s linear, background-color .2s linear;
+    &:hover{
+        color: #0F0F0F;
+        background-color: $primaryTextColor;
+    }
+}

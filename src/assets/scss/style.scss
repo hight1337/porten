@@ -1,0 +1,34 @@
+@import "vars";
+@import "cssReset";
+
+
+body {
+    background-color: $primaryBgColor;
+    font-size: 10px;
+    color: $primaryTextColor;
+    font-family: PT Sans, sans-serif;
+    font-weight: 400;
+}
+
+/* Container */
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+@import "blocks/header-bottom.scss";
+@import "blocks/header-top.scss";
+@import "blocks/hero.scss";
+@import "blocks/section-info.scss";
+@import "blocks/leftItem.scss";
+@import "blocks/rightItem.scss";
+@import "blocks/section-arrivals.scss";
+@import "blocks/section-ourPartners.scss";
+@import "blocks/footer.scss";
+@import "blocks/footer-top.scss";
+@import "blocks/footer-bottom.scss";
+
+

@@ -1,0 +1,15 @@
+.new-arrivals{
+    width: 100%;
+}
+
+.new-arrivals__inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.newArrivals-item{
+    width: 25%;
+    padding-bottom: 40px;
+}
